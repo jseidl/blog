@@ -1,9 +1,9 @@
-baseURL = "http://localhost:1313/"
+baseURL = "http://wroot.org/"
 title = "wroot"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
-theme = "minos"
+theme = "wroot"
 disqusShortname = "wroot"
 
 paginate = 10
