@@ -1,0 +1,12 @@
+<link rel='icon' href='{{ ( or .Site.Params.assets.favicon "favicon.ico" ) | relURL }}'>
+
+
+{{- range .Site.Params.assets.customCSS -}}
+  <link rel='stylesheet' href='{{ . | relURL }}'>
+{{- end -}}
+
+<link rel='stylesheet' href='{{ "css/style.css" | relURL  }}'>
+
+{{- partial "head/css" . -}}
+
+{{- partial "head/analytics" . -}}

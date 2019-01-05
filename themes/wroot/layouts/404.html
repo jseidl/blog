@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.Language.Lang }}'>
+{{ partial "head/head.html" . }}
+
+<body>
+<div id="container" class="page-404">
+    {{ partial "header.html" . }}
+    <section id="main" class="">
+        <a href="{{ "/" | relLangURL }}">
+            <img src="/pages/gopher.png" alt="Gopher" class="gopher"/>
+        </a>
+        <h1 class="title">
+            <a href='{{ "/" | relLangURL }}'>
+            {{- .Site.Params.info.title404 | default .Title -}}
+            </a>
+        </h1>
+        <p>This URL does not exists. Sorry mate!</p>
+    </section>
+    {{ partial "footer.html" . }}
+</div>
+</body>
+</html>
