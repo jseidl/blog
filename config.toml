@@ -5,6 +5,7 @@ copyright = ""
 
 theme = "wroot"
 disqusShortname = "wroot"
+googleAnalytics = "UA-16644151-1"
 
 paginate = 10
 smartToc = true
