@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:jseidl/jseidl.github.io.git
